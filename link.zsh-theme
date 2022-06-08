@@ -3,9 +3,9 @@ prompt_char() {
 }
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%F{#ffff00}("
-ZSH_THEME_GIT_PROMPT_SUFFIX="%F{#ffff00})"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}⚡"
-ZSH_THEME_GIT_PROMPT_CLEAN="🚀"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%F{#ffff00}"
+ZSH_THEME_GIT_PROMPT_DIRTY=")⚡"
+ZSH_THEME_GIT_PROMPT_CLEAN=")🚀"
 
 PROMPT="%(?, ,%{$fg[red]%}FAIL: $?%{$reset_color%})
 %B%F{#d700af}%c%{$reset_color%}$(git_prompt_info)%b
